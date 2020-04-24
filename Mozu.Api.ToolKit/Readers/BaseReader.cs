@@ -21,7 +21,6 @@ namespace Mozu.Api.ToolKit.Readers
 
         public async Task<bool> ReadAsync()
         {
-
             if (!PageSize.HasValue) PageSize = 20;
 
             if (TotalCount.HasValue && StartIndex.HasValue && PageSize.HasValue)
