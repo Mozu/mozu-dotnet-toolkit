@@ -1,3 +1,0 @@
-Testing teamcity trigger
-new test
-

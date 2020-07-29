@@ -1,18 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozu.Api.ToolKit", "Mozu.Api.ToolKit\Mozu.Api.ToolKit.csproj", "{707B281E-2F13-40B1-BF66-0C4669FCE1EF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozu.Api.ToolKit", "Mozu.Api.ToolKit\Mozu.Api.ToolKit.csproj", "{8CFD438A-EB20-4867-9E86-131FCF3460D8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{5D572CB2-344E-4BF4-A299-03A3E33A3D6C}"
-	ProjectSection(SolutionItems) = preProject
-		Build.cmd = Build.cmd
-		Build.fsx = Build.fsx
-		README.md = README.md
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozu.Api", "..\..\Mozu.Api\Mozu.Api\Mozu.Api\Mozu.Api.csproj", "{37DEDAF3-262A-4B28-840A-FAAECFCF28F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozu.Api.ToolKit.Test", "Mozu.Api.ToolKit.Test\Mozu.Api.ToolKit.Test.csproj", "{41A3A3D0-C07B-4195-9321-029539BA8D22}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozu.Api.ToolKit.Client", "Mozu.Api.ToolKit.Client\Mozu.Api.ToolKit.Client.csproj", "{6590F814-A021-4977-9273-F3C4EFD282A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,19 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{707B281E-2F13-40B1-BF66-0C4669FCE1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{707B281E-2F13-40B1-BF66-0C4669FCE1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{707B281E-2F13-40B1-BF66-0C4669FCE1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{707B281E-2F13-40B1-BF66-0C4669FCE1EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{41A3A3D0-C07B-4195-9321-029539BA8D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{41A3A3D0-C07B-4195-9321-029539BA8D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{41A3A3D0-C07B-4195-9321-029539BA8D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{41A3A3D0-C07B-4195-9321-029539BA8D22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CFD438A-EB20-4867-9E86-131FCF3460D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CFD438A-EB20-4867-9E86-131FCF3460D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CFD438A-EB20-4867-9E86-131FCF3460D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CFD438A-EB20-4867-9E86-131FCF3460D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DEDAF3-262A-4B28-840A-FAAECFCF28F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DEDAF3-262A-4B28-840A-FAAECFCF28F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DEDAF3-262A-4B28-840A-FAAECFCF28F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DEDAF3-262A-4B28-840A-FAAECFCF28F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6590F814-A021-4977-9273-F3C4EFD282A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6590F814-A021-4977-9273-F3C4EFD282A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6590F814-A021-4977-9273-F3C4EFD282A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6590F814-A021-4977-9273-F3C4EFD282A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {05845FC7-B8AB-4340-A69F-A390EC8E1D2E}
+		SolutionGuid = {1865A2AA-AA55-4DAD-B803-86C400EA0254}
 	EndGlobalSection
 EndGlobal

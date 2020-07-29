@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using Mozu.Api.Logging;
 using Mozu.Api.ToolKit.Config;
 using Mozu.Api.ToolKit.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Mozu.Api.ToolKit.Handlers
 {
@@ -27,9 +28,11 @@ namespace Mozu.Api.ToolKit.Handlers
         private readonly string _appName;
         private readonly ILogger _logger = LogManager.GetLogger(typeof(EmailHandler));
         private string[] _emailSplitChars = new[] {";", ",", "\r", "\n"};
+       
 
         public EmailHandler(IAppSetting appSetting)
         {
+            
             _smptServerUrl = appSetting.SMTPServerUrl;
             _appName = appSetting.AppName;
             if (appSetting.Settings.ContainsKey("SupportEmail"))
@@ -41,6 +44,7 @@ namespace Mozu.Api.ToolKit.Handlers
             var codeBase = Assembly.GetExecutingAssembly().CodeBase;
             var uri = new UriBuilder(codeBase);
             _templatePath = Path.Combine(Path.GetDirectoryName(Uri.UnescapeDataString(uri.Path)), "EmailTemplates");
+            
         }
 
 
