@@ -3,11 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozu.Api.ToolKit", "Mozu.Api.ToolKit\Mozu.Api.ToolKit.csproj", "{8CFD438A-EB20-4867-9E86-131FCF3460D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozu.Api.ToolKit", "Mozu.Api.ToolKit\Mozu.Api.ToolKit.csproj", "{8CFD438A-EB20-4867-9E86-131FCF3460D8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozu.Api", "..\..\Mozu.Api\Mozu.Api\Mozu.Api\Mozu.Api.csproj", "{37DEDAF3-262A-4B28-840A-FAAECFCF28F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozu.Api.ToolKit.Client", "Mozu.Api.ToolKit.Client\Mozu.Api.ToolKit.Client.csproj", "{6590F814-A021-4977-9273-F3C4EFD282A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05539711-2AF0-4E21-8BBC-6AE3926F5756}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Dockerfile = Dockerfile
+		Jenkinsfile = Jenkinsfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
