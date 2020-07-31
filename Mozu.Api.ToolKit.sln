@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozu.Api.ToolKit", "Mozu.Ap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozu.Api", "..\..\Mozu.Api\Mozu.Api\Mozu.Api\Mozu.Api.csproj", "{37DEDAF3-262A-4B28-840A-FAAECFCF28F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mozu.Api.ToolKit.Client", "Mozu.Api.ToolKit.Client\Mozu.Api.ToolKit.Client.csproj", "{6590F814-A021-4977-9273-F3C4EFD282A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozu.Api.ToolKit.Test", "Mozu.Api.ToolKit.Test\Mozu.Api.ToolKit.Test.csproj", "{20A8E7A3-BD6D-44D6-BF18-733F6291A5E0}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05539711-2AF0-4E21-8BBC-6AE3926F5756}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39A856C5-5EB6-4884-8C85-4242BF7B0715}"
 	ProjectSection(SolutionItems) = preProject
 		.dockerignore = .dockerignore
 		Dockerfile = Dockerfile
@@ -30,10 +30,10 @@ Global
 		{37DEDAF3-262A-4B28-840A-FAAECFCF28F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37DEDAF3-262A-4B28-840A-FAAECFCF28F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37DEDAF3-262A-4B28-840A-FAAECFCF28F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6590F814-A021-4977-9273-F3C4EFD282A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6590F814-A021-4977-9273-F3C4EFD282A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6590F814-A021-4977-9273-F3C4EFD282A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6590F814-A021-4977-9273-F3C4EFD282A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A8E7A3-BD6D-44D6-BF18-733F6291A5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A8E7A3-BD6D-44D6-BF18-733F6291A5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A8E7A3-BD6D-44D6-BF18-733F6291A5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A8E7A3-BD6D-44D6-BF18-733F6291A5E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -19,4 +19,10 @@
     <ProjectReference Include="..\..\..\Mozu.Api\Mozu.Api\Mozu.Api\Mozu.Api.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="EmailTemplates\ErrorEmailTemplate.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

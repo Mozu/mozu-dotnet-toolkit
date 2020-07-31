@@ -181,13 +181,7 @@ namespace Mozu.Api.ToolKit.Config
         {
             Settings = new Dictionary<string, object>();
 
-            //foreach (var key in ConfigurationManager.AppSettings.AllKeys)
-            //{
-            //    Settings.Add(key, ConfigurationManager.AppSettings[key]);
-            //}
-            //var builder = new ConfigurationBuilder()
-            //            .SetBasePath(Directory.GetCurrentDirectory())
-            //            .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
+            
 
             IConfigurationRoot configuration = ConfigHelper.GetConfigBuilder("appsettings.json");//builder.Build();
             var appSettingsSec = configuration.GetSection("appSettings").GetChildren();

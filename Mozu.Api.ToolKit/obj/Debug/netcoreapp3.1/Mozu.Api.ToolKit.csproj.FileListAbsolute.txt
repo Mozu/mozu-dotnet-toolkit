@@ -10,15 +10,4 @@ D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.A
 D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\obj\Debug\netcoreapp3.1\Mozu.Api.ToolKit.csproj.CopyComplete
 D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\obj\Debug\netcoreapp3.1\Mozu.Api.ToolKit.dll
 D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\obj\Debug\netcoreapp3.1\Mozu.Api.ToolKit.pdb
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\bin\Debug\netcoreapp3.1\Mozu.Api.ToolKit.deps.json
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\bin\Debug\netcoreapp3.1\Mozu.Api.ToolKit.dll
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\bin\Debug\netcoreapp3.1\Mozu.Api.ToolKit.pdb
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\bin\Debug\netcoreapp3.1\Mozu.Api.dll
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\bin\Debug\netcoreapp3.1\Mozu.Api.pdb
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\obj\Debug\netcoreapp3.1\Mozu.Api.ToolKit.csprojAssemblyReference.cache
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\obj\Debug\netcoreapp3.1\Mozu.Api.ToolKit.AssemblyInfoInputs.cache
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\obj\Debug\netcoreapp3.1\Mozu.Api.ToolKit.AssemblyInfo.cs
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\obj\Debug\netcoreapp3.1\Mozu.Api.ToolKit.csproj.CoreCompileInputs.cache
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\obj\Debug\netcoreapp3.1\Mozu.Api.ToolKit.csproj.CopyComplete
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\obj\Debug\netcoreapp3.1\Mozu.Api.ToolKit.dll
-D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.ImportExport\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\obj\Debug\netcoreapp3.1\Mozu.Api.ToolKit.pdb
+D:\Raghavendra\dotnetcore\Migrated_App2\Mozu.Api.ToolKit\Mozu.Api.ToolKit\Mozu.Api.ToolKit\bin\Debug\netcoreapp3.1\EmailTemplates\ErrorEmailTemplate.txt
