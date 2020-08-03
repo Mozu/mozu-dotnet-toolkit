@@ -10,7 +10,8 @@ COPY ["./**/*.csproj", "./*.sln",   "./"]
 
 RUN node -e "var fs=require('fs');fs.readdir(__dirname,function(err,files){files.filter((file)=>{return file.endsWith('.csproj')}).forEach((file)=>{var dir=file.substr(0,file.length-'.csproj'.length);var dest=dir+'/'+dir+'.csproj';if(!fs.existsSync(dir)){fs.mkdirSync(dir)}fs.rename(file,dest,console.log)})});"
 
-RUN dotnet restore  --source https://api.nuget.org/v3/index.json --source http://ng-repo.dev.kibocommerce.com:8081/repository/nuget-localbuild/  Mozu.Api.Toolkit.sln
+RUN dotnet restore  --source https://api.nuget.org/v3/index.json --source http://ng-repo.dev.kibocommerce.com:8081/repository/nuget-localbuild/  Mozu.Api.ToolKit.sln
+																		 
 ENV mozu__appSettings__redis_host=localhost
 COPY . .
 ARG BUILD_VER=0.0.0-alphagit 
