@@ -17,7 +17,7 @@ namespace Mozu.Api.ToolKit
             }
             return new ConfigurationBuilder()
                        .SetBasePath(location)
-                       .AddJsonFile(config, optional: true, reloadOnChange: true)
+                       .AddJsonFile(config, optional: true, reloadOnChange: false)
                        .Build();
         }
 
