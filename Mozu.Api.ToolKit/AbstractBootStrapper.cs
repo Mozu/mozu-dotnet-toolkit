@@ -184,7 +184,16 @@ namespace Mozu.Api.ToolKit
             _containerBuilder.AddTransient<ISiteHandler, SiteHandler>();
             _containerBuilder.AddTransient<ISubnavLinkHandler, SubnavLinkHandler>();
 
-            
+            _containerBuilder.AddTransient<OrderEventProcessor>();
+            _containerBuilder.AddTransient<ReturnEventProcessor>();
+            _containerBuilder.AddTransient<CustomerAccountEventProcessor>();
+            _containerBuilder.AddTransient<ProductEventProcessor>();
+            _containerBuilder.AddTransient<DiscountEventProcessor>();
+            _containerBuilder.AddTransient<ApplicationEventProcessor>();
+            _containerBuilder.AddTransient<CustomerSegmentEventProcessor>();
+            _containerBuilder.AddTransient<TenantEventProcessor>();
+            _containerBuilder.AddTransient<EmailEventProcessor>();
+            _containerBuilder.AddTransient<ProductInventoryEventProcessor>();
 
             _containerBuilder.AddTransient<ServiceResolver>(serviceProvider => key =>
             {
