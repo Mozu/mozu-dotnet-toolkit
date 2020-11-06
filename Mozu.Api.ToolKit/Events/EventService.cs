@@ -44,7 +44,7 @@ namespace Mozu.Api.ToolKit.Events
                 if (String.IsNullOrEmpty(topic))
                     throw new ArgumentException("Topic cannot be null or empty");
 
-                var eventCategory = (EventCategory) (Enum.Parse(typeof (EventCategory), topic, true));
+                var eventCategory = (int) (Enum.Parse(typeof (EventCategory), topic, true));
                 var eventProcessor = _serviceAccessor(eventCategory.ToString()); //_container.GetService<IEventProcessor>(eventCategory);
                 await eventProcessor.ProcessAsync(_container, apiContext, eventPayLoad);
             }
