@@ -16,12 +16,11 @@ namespace Mozu.Api.ToolKit.Readers
         public string Q { get; set; }
         public int? QLimit { get; set; }
         public int? TotalCount { get; protected set; }
-
+        
         public  CancellationToken CancellationToken { get; set; }
 
         public async Task<bool> ReadAsync()
         {
-
             if (!PageSize.HasValue) PageSize = 20;
 
             if (TotalCount.HasValue && StartIndex.HasValue && PageSize.HasValue)
